@@ -23,6 +23,9 @@ ro.qualcomm.bt.hci_transport=smd
 # Camera
 persist.camera.cpp.duplication=false
 
+# Charger
+ro.charger.disable_init_blank=true
+
 # Display
 debug.composition.type=c2d
 debug.enable.sglscale=1

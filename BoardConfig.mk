@@ -93,9 +93,6 @@ TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
 	/system/bin/mediaserver=23 \
 	/system/vendor/bin/mm-qcamera-daemon=23
 
-# Charger
-BOARD_CHARGER_DISABLE_INIT_BLANK := true
-
 # Display
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x02000000U
