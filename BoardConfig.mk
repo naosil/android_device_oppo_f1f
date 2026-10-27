@@ -60,7 +60,7 @@ BOARD_KERNEL_CMDLINE := console=none androidboot.hardware=qcom msm_rtb.filter=0x
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --tags_offset 0x00000100 --ramdisk_offset 0x01000000
 TARGET_KERNEL_SOURCE := kernel/oppo/msm8939
-TARGET_KERNEL_CONFIG := lineageos_f1f_defconfig
+TARGET_KERNEL_CONFIG := f1f_defconfig
 ifneq ($(FORCE_32_BIT),true)
 BOARD_KERNEL_IMAGE_NAME := Image-dtb
 else
