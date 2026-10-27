@@ -159,10 +159,6 @@ ifeq ($(WITH_TWRP),true)
 -include $(DEVICE_PATH)/twrp.mk
 endif
 
-# Releasetools
-TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_oppo
-TARGET_RELEASETOOLS_EXTENSIONS := device/oppo/common
-
 # Root
 BOARD_ROOT_EXTRA_FOLDERS := firmware persist
 
