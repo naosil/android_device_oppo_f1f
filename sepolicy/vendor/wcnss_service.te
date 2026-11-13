@@ -1,2 +1,4 @@
 allow wcnss_service nv_data_file:dir { search };
 allow wcnss_service nv_data_file:file { open read getattr };
+allow wcnss_service persist_file:dir { search write add_name };
+allow wcnss_service persist_file:file { create open read write getattr };
