@@ -45,12 +45,5 @@ write_headers
 # The proprietary makefiles
 write_makefiles "$MY_DIR"/proprietary-files.txt
 
-# Blobs for TWRP data decryption
-cat << EOF >> "$BOARDMK"
-ifeq (\$(WITH_TWRP),true)
-TARGET_RECOVERY_DEVICE_DIRS += vendor/$VENDOR/$DEVICE/proprietary
-endif
-EOF
-
 # Finish
 write_footers
