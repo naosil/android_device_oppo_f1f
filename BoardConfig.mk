@@ -168,9 +168,6 @@ TARGET_LD_SHIM_LIBS := \
     /system/vendor/lib/libflp.so|libshims_flp.so \
     /system/vendor/lib/libizat_core.so|libshims_get_process_name.so
 
-# Shipping API
-PRODUCT_SHIPPING_API_LEVEL := 22
-
 # Touchscreen
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 
