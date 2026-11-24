@@ -35,7 +35,7 @@ Device configuration for OPPO F1f
 | BT | Qualcomm WCN3620 |
 | FM | Qualcomm WCN3620 |
 | GPS | QUALCOMM-MSM8939 (IZat Gen8C) |
-| LEDs | Red, green, and blue notification LEDs |
+| LEDs | White notification LEDs |
 
 ### Device Picture
 
